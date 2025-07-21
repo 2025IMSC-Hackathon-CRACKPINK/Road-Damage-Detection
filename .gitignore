@@ -1,6 +1,7 @@
 # Data directories (too large for git)
 data/
 datasets/
+runs/
 road_damage_detection/
 yolo_dataset/
 *.zip
