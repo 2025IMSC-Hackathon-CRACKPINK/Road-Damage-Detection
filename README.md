@@ -28,7 +28,7 @@ CRACKPINK aims to automate the detection and classification of such defects, dra
 ## 🧠 Powered by AI
 CRACKPINK is built using:
 
-YOLOv8/YOLOv11 for real-time object detection
+YOLOv5/YOLOv8/YOLOv11 for real-time object detection
 
 OpenCV for image preprocessing and result visualization
 
