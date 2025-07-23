@@ -4,6 +4,7 @@ datasets/
 runs/
 road_damage_detection/
 yolo_dataset/
+yolo_augmented_dataset/
 coco_dataset/
 detr_output/
 *.zip
