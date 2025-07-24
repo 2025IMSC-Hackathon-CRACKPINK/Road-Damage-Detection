@@ -7,6 +7,11 @@ yolo_dataset/
 yolo_augmented_dataset/
 coco_dataset/
 detr_output/
+class_split/
+cls_yolo_runs/
+inference_results/
+yolo_binary_augmented_dataset/
+yolo_binary_dataset/
 *.zip
 *.tar.gz
 *.rar
