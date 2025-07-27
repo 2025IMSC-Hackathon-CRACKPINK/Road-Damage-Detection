@@ -27,10 +27,6 @@ To enhance robustness and generalization, the following augmentation techniques 
 - **Random cropping**
 - **Rotation** (±10°)
 
----
-
-### 🧬 Ensemble Learning
-- **Status**: ❌ Not applied
 
 ---
 
