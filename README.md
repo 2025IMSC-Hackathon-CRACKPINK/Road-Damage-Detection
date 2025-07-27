@@ -1,47 +1,68 @@
-# 🛣️ CRACKPINK: Road Defect Detection System
-No crack goes unnoticed on the road!
+# 🧠 YOLO Object Detection - Performance Analysis Report
 
-CRACKPINK is an AI-powered solution designed to detect and classify road surface defects such as cracks, potholes, and other hazards that threaten traffic safety.
+This repository documents the performance evaluation of a YOLOv12 object detection model trained on custom road surface data.
 
-By leveraging state-of-the-art deep learning and computer vision techniques, CRACKPINK enables municipalities, construction agencies, and transportation departments to maintain roads faster, more efficiently, and more safely than ever before.
+---
 
-## 🚀 Why CRACKPINK?
-Roads deteriorate over time due to weather, traffic load, and poor maintenance. Small defects left undetected can quickly evolve into major hazards, leading to:
+## 📁 Experimental Setup
 
-Increased risk of accidents
+### 📌 Model Configuration
+- **YOLO Version**: YOLOv12 (Extra-Large variant)
+- **Input Image Size**: 640 × 640 pixels
+- **Epochs**: 150
+- **Optimizer**: SGD (Stochastic Gradient Descent)
+- **Learning Rate**: 0.001
+- **Confidence Threshold**: 0.10
+- **IoU Threshold**: 0.15
 
-Higher long-term maintenance costs
+---
 
-Disruption in traffic flow
+### 🧪 Data Augmentation
+Data augmentation was enabled to improve generalization and robustness. Techniques used include:
+- Random **scaling**
+- **Shearing** operations
+- **Gaussian noise** injection
+- **Random cropping**
+- **Rotation** (±10 degrees)
 
-CRACKPINK aims to automate the detection and classification of such defects, drastically reducing the time and manpower needed for manual inspection and enabling real-time, data-driven road maintenance.
+---
 
-## 🔍 What Can CRACKPINK Do?
-✅ Detect various types of road damage (cracks, potholes, edge defects, etc.)
+### 🧬 Ensemble Learning
+- ❌ **Not applied** in this experiment
 
-✅ Accurately localize and classify defects in images or real-time video streams
+---
 
-✅ Visualize detected areas with bounding boxes and confidence scores
+## 📸 Sample Predictions
+> ✅ The image below illustrates sample detection outputs from the best-performing YOLOv12 model.
 
-✅ Store results for further analysis and reporting
+> *(Insert sample image or link here)*
 
-## 🧠 Powered by AI
-CRACKPINK is built using:
+---
 
-YOLOv5/YOLOv8/YOLOv11 for real-time object detection
+## 📊 Observations & Insights
 
-OpenCV for image preprocessing and result visualization
+### 🔍 Key Hyperparameters
+- **IoU Threshold (0.15)** offered a good trade-off between **Precision** and **Recall**.
+- **Training Epochs (150)** helped achieve convergence without significant overfitting.
+- **Train/Validation Split Ratio** affected model generalization notably.
 
-Custom datasets labeled specifically for road damage categories
+### 🚀 YOLOv12 Advantages
+YOLOv12 outperformed previous versions thanks to:
+- Advanced **feature extraction** layers
+- Improved **neck architecture** for multiscale feature fusion
+- Optimized **anchor-free detection head** reducing complexity while maintaining accuracy
 
-Python-based pipelines for flexibility and scalability
+### 🎯 Data Augmentation Benefits
+The aggressive augmentation pipeline played a critical role by:
+- Improving detection robustness across various lighting and geometric conditions
+- Simulating diverse real-world environments for better generalization
 
-## 🏁 Real-World Impact
-With CRACKPINK, cities and governments can:
+---
 
-🚗 Improve road safety by addressing damage before accidents happen
+## 📌 Notes
+- This report summarizes training conducted without ensemble strategies.
+- Future work may explore test-time augmentation and ensemble methods for further performance gains.
 
-🏗️ Optimize repair scheduling using AI-generated heatmaps
+---
 
-📊 Build long-term infrastructure strategies based on defect data trends
-
+## 📂 Directory Structure (optional)
