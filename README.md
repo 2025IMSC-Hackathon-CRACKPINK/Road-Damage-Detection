@@ -1,4 +1,4 @@
-# 🩷 CRACKPINK: Road Defect Detection with YOLOv12 🩷
+# 🖤 CRACKPINK: Road Defect Detection with YOLOv12 🩷
 
 ## 🧠 YOLO Object Detection - Performance Analysis Report
 
