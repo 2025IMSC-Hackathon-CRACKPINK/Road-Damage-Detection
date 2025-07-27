@@ -36,9 +36,12 @@ To enhance robustness and generalization, the following augmentation techniques 
 
 ## 📸 Sample Predictions
 
-> ✅ Below is a sample output from the best-performing YOLOv12 model.
+<img width="590" height="282" alt="KakaoTalk_Photo_2025-07-26-18-16-32" src="https://github.com/user-attachments/assets/d235fd28-5169-4fdf-80f7-b63c8225c1c8" />
 
-> *(Insert image or provide a link here)*
+--- 
+
+<img width="590" height="282" alt="KakaoTalk_Photo_2025-07-26-18-16-36" src="https://github.com/user-attachments/assets/10377a8d-6d21-4e1d-851f-6b0e5de54041" />
+
 
 ---
 
@@ -68,7 +71,4 @@ The augmentation strategy notably boosted model robustness:
   - Applying **test-time augmentation**
   - Exploring **model ensembling** to further enhance performance
 
----
-
-## 📂 Directory Structure (Optional)
 
